@@ -1,0 +1,76 @@
+2026-05-05T15:35:12.891Z[INFO]: getting testdata from testdata.json file
+2026-05-05T15:35:12.892Z[INFO]: executing the requests
+2026-05-05T15:35:23.358Z[INFO]: getting testdata from testdata.json file
+2026-05-05T15:35:23.360Z[INFO]: executing the requests
+2026-05-05T15:36:42.312Z[INFO]: getting testdata from testdata.json file
+2026-05-05T15:36:42.313Z[INFO]: executing the requests
+2026-05-05T15:36:42.313Z[WARN]: execution started
+2026-05-05T15:36:42.314Z[ERROR]: error deected
+2026-05-05T15:43:33.815Z[INFO]: getting testdata from testdata.json file
+2026-05-05T15:43:33.816Z[INFO]: executing the requests
+2026-05-05T15:43:33.816Z[WARN]: execution started
+2026-05-05T15:43:33.816Z[ERROR]: error deected
+2026-05-05T15:45:52.588Z[INFO]: getting testdata from testdata.json file
+2026-05-05T15:45:52.589Z[INFO]: executing the requests
+2026-05-05T15:45:52.589Z[WARN]: execution started
+2026-05-05T15:45:52.589Z[ERROR]: error deected
+2026-05-05T15:45:52.835Z[ERROR]: response body
+2026-05-05T15:56:17.666Z[INFO]: getting testdata from testdata.json file
+2026-05-05T15:56:17.667Z[INFO]: executing the requests
+2026-05-05T15:56:17.667Z[WARN]: execution started
+2026-05-05T15:56:17.667Z[ERROR]: error deected
+2026-05-05T15:56:18.197Z[ERROR]: [object Object]
+2026-05-05T16:17:49.152Z[INFO]: getting testdata from testdata.json file
+2026-05-05T16:17:49.153Z[INFO]: executing the requests
+2026-05-05T16:17:49.154Z[WARN]: execution started
+2026-05-05T16:17:49.154Z[ERROR]: error deected
+2026-05-05T16:17:49.448Z[ERROR]: response: {
+  "bookingid": 3496,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+2026-05-06T11:57:45.069Z[INFO]: getting testdata from testdata.json file
+2026-05-06T11:57:45.071Z[INFO]: executing the requests
+2026-05-06T11:57:45.071Z[WARN]: execution started
+2026-05-06T11:57:45.071Z[ERROR]: error deected
+2026-05-06T11:57:45.348Z[INFO]: response: {
+  "bookingid": 3573,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+2026-05-06T11:59:12.115Z[INFO]: getting testdata from testdata.json file
+2026-05-06T11:59:12.116Z[INFO]: executing the requests
+2026-05-06T11:59:12.116Z[WARN]: execution started
+2026-05-06T11:59:12.117Z[ERROR]: error deected
+2026-05-06T11:59:12.401Z[INFO]: response: {
+  "bookingid": 4401,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

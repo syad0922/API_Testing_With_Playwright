@@ -1,0 +1,43 @@
+2026-05-06T11:59:12.115Z[INFO]: getting testdata from testdata.json file
+2026-05-06T11:59:12.116Z[INFO]: executing the requests
+2026-05-06T11:59:12.116Z[WARN]: execution started
+2026-05-06T11:59:12.117Z[ERROR]: error deected
+2026-05-06T11:59:12.401Z[INFO]: response: {
+  "bookingid": 4401,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Create booking {
+  bookingid: 4401,
+  booking: {
+    firstname: 'Jim',
+    lastname: 'Brown',
+    totalprice: 111,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'Breakfast'
+  }
+}
+4401
+892cbdb821fa79c
+https://restful-booker.herokuapp.com/booking/4401
+get booking details  {
+  firstname: 'Jim',
+  lastname: 'Brown',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Breakfast'
+}
+https://restful-booker.herokuapp.com/booking/4401
+403
+response body Forbidden
